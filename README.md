@@ -13,5 +13,7 @@ At each button state change (e.g from a mechanical event), the node send a messa
 from the TTN network. At each message , the getway send a signal to the mobile application through a websocket between this gateway and the mobile app initialized on its launch. 
 When the app receives the signal, it sends a notification to the user.
 
+The button is connected to a pull-up digital input. You need a TTN access.
+
 
 **It's just a piece of code written in a couple of hours, so please be kind about quality :)**
