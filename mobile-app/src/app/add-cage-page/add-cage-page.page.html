@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>add-cage-page</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+	 <ion-slides pager="true" [options]="">
+      <ion-slide>
+        <div>
+			Check your location :
+			{{ coords_lat }}, {{ coords_long }}
+			
+		</div>
+      </ion-slide>
+      <ion-slide>
+        <div>
+			Register the cage
+		</div>
+      </ion-slide>
+      <ion-slide>
+        <div>
+			Verify the cage
+			<ul>
+				<li>Check the battery level</li>
+				<li>Check the network connection</li>
+			</ul>
+		</div>
+      </ion-slide>
+	  <ion-slide>
+        <div>
+			Cage added !
+		</div>
+      </ion-slide>
+    </ion-slides>
+</ion-content>
